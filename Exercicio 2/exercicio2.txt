@@ -1,0 +1,26 @@
+1. Responsabilidade principal:
+Representar uma sala de aula, controlando seus dados e sua disponibilidade para reserva.
+
+2. Atributos:
+- código: String
+- capacidade: int
+- disponível: boolean
+
+3. Estado inicial:
+- Código definido na criação.
+- Capacidade definida na criação.
+- A sala começa disponível (true).
+
+4. Comportamentos:
+- Reservar a sala.
+- Liberar a sala.
+- Consultar se a sala está disponível.
+- Consultar código e capacidade.
+
+5. Regras:
+- Uma sala só pode ser reservada se estiver disponível.
+- Uma sala só pode ser liberada se estiver reservada.
+
+6. Informações que podem ser ignoradas:
+- Localização exata da sala, pois não é necessária para controlar reservas.
+- Equipamentos da sala, pois não são necessários para o objetivo inicial do modelo.
