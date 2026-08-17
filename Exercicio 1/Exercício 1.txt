@@ -1,0 +1,76 @@
+Exercício 1
+
+1. Classe
+É uma estrutura que serve como modelo para definir as características e comportamentos dos objetos.
+
+- Exemplo:
+
+class Pessoa {
+    String nome;
+}
+
+
+2. Objeto
+É uma entidade criada a partir de uma classe, possuindo seus próprios valores e comportamentos.
+
+-Exemplo:
+
+Pessoa pessoa1 = new Pessoa();
+
+
+3. Atributo
+É uma variável pertencente a uma classe que representa uma característica do objeto.
+
+-Exemplo:
+
+String nome;
+int idade;
+
+
+4. Método
+É uma função definida dentro de uma classe que representa um comportamento ou ação do objeto.
+
+-Exemplo:
+
+void apresentar() {
+    System.out.println("Olá!");
+}
+
+5. Construtor
+É um método especial utilizado para inicializar um objeto no momento de sua criação. Possui o mesmo nome da classe.
+
+-Exemplo:
+
+Pessoa(String nome) {
+    this.nome = nome;
+}
+
+
+6. Instância
+É um objeto específico criado a partir de uma determinada classe.
+
+-Exemplo:
+
+Pessoa pessoa1 = new Pessoa();
+
+Nesse caso, pessoa1 é uma instância da classe Pessoa.
+
+7. Referência
+É uma variável que permite acessar um objeto criado na memória.
+
+-Exemplo:
+
+Pessoa pessoa1 = new Pessoa();
+
+
+Nesse caso, pessoa1 é uma referência ao objeto criado.
+
+8. Estado do objeto
+É o conjunto de valores armazenados nos atributos de um objeto em determinado momento.
+
+-Exemplo:
+
+pessoa1.nome = "Davi";
+pessoa1.idade = 19;
+
+O estado do objeto, nesse momento, é definido pelos valores nome = "Davi" e idade = 19.

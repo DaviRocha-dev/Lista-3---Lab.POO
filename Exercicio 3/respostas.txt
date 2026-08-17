@@ -1,0 +1,5 @@
+1. Atributos: codigo (String) e disponivel (boolean).
+2. O construtor inicializa o objeto, definindo o código recebido e deixando disponivel = true.
+3. emprestar() e devolver().
+4. Estado inicial: código definido pelo construtor e disponivel = true.
+5. Nada acontece — como disponivel já é false, o if não entra e o método não faz efeito nenhum (não dá erro).
